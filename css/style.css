@@ -1,0 +1,149 @@
+body {
+  font-family: Tahoma, serif;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: #0B9439;
+  text-align: center;
+  z-index: 1;
+}
+
+.navbar > a {
+  display: inline-block;
+  min-width: 150px;
+  text-decoration: none;
+  text-align: left;
+  color: #F2EFDC;
+}
+
+.navbar > a.left-navbar {
+  text-align: right;
+}
+
+.navbar .logo {
+  margin: 0 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar .logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  margin: 100px auto 45px;
+  width: 90%;
+  text-align: center;
+}
+
+#who-we-are:before {
+  display: block;
+	margin: -100px 0 0;
+	content: "";
+	height: 135px;
+}
+
+.we-are-box {
+  display: inline-block;
+  position: relative;
+}
+
+.we-are-box .line + .line {
+  text-align: left;
+}
+
+.we-are-box label {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.we-are-box label img {
+  width: 150px;
+  opacity: 0.7;
+  border: 2px solid #fff;
+  border-radius: 0%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.we-are-box a:focus img {
+  opacity: 1;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 25px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 25px rgba(255,255,255,1);
+  box-shadow: 0px 0px 25px rgba(255,255,255,1);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.info {
+  position: absolute;
+  width: 64%;
+  top: 170px;
+  left: 340px;
+  text-align: left;
+}
+
+.info div {
+  text-align: center;
+}
+
+.info input[type=radio],
+.info input[type=radio] + div,
+.info input[type=radio]:checked ~ div {
+  display: none;
+}
+
+.info input[type=radio]:checked + div {
+  display: block;
+}
+
+#we-offer:before {
+  display: block;
+  margin: -100px 0 0;
+  content: "";
+  height: 155px;
+}
+
+.program {
+  text-align: left;
+}
+
+.program img {
+  margin-right: 70px;
+  vertical-align: middle;
+}
+
+.program ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.program ul h2 {
+  font-size: 20px;
+  color: #0A4E30;
+}
+
+.program ul h3 {
+  text-align: center;
+}
