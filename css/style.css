@@ -1,7 +1,7 @@
 body {
   font-family: Tahoma, serif;
   font-weight: 100;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .navbar {
@@ -20,6 +20,7 @@ body {
   text-decoration: none;
   text-align: left;
   color: #F2EFDC;
+  font-size: 20px;
 }
 
 .navbar > a.left-navbar {
@@ -27,7 +28,7 @@ body {
 }
 
 .navbar .logo {
-  margin: 0 50px;
+  margin: 0 100px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -100,12 +101,17 @@ body {
   position: absolute;
   width: 64%;
   top: 170px;
-  left: 340px;
+  left: 338px;
   text-align: left;
 }
 
-.info div {
-  text-align: center;
+.info ul li {
+  margin: 10px 0;
+} 
+
+.info ul a {
+  text-decoration: none;
+  color: blue;
 }
 
 .info input[type=radio],
@@ -126,6 +132,7 @@ body {
 }
 
 .program {
+  display: inline;
   text-align: left;
 }
 
@@ -142,8 +149,4 @@ body {
 .program ul h2 {
   font-size: 20px;
   color: #0A4E30;
-}
-
-.program ul h3 {
-  text-align: center;
 }
